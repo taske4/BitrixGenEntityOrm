@@ -350,7 +350,7 @@ class GenOrm
         $aliases = array_unique($aliases);
         sort($aliases);
 
-        $entityPath  = $entitiesPath.'/'.mb_strtolower($className)."table.php";
+        $entityPath  = $entitiesPath.'/'.$className."Table.php";
         $entityFileContent = '';
 
         $entityFileContent .= "<"."?"."php";
